@@ -1,34 +1,36 @@
 .name {
-    max-width: 50%;
+    /* max-width: 50%;
     width: 75%;
     max-height: 100px;
     height: 100px;
     min-width: 30%;
     width: 50%;
     min-height: 50px;
-    height: 50px;
+    height: 50px; */
     font-size: 50px;
     font-weight: 500;
     color: white;
+    margin: 50px 300px;
 }
 
 body {
-    background-color:slategrey;
+    background-color: burlywood;
     /* background: linear-gradient(-8deg. warna 20%. warna) */
     text-align: center;
 }
 
 .mahasiswa {
-    max-width: 50%;
+    /* max-width: 50%;
     width: 50%;
-    max-height: 70px;
-    height: 70px;
+    max-height: 70px; */
+    height: 50px;
     font-size: 20px;
     font-weight: 20;
     color: white;
+    margin: 0px 300px;
 }
 
-.gambar>.ukuran-gambar {
+.gambar .ukuran-gambar {
     width: 400px;
     height: 400px;
     border-radius: 50%;
@@ -43,30 +45,32 @@ body {
     font-weight: 20;
 }
 
-.Kotak-1 {
-    text-align: center;
-}
-
-
 .sosmed {
     font-size: 20px;
     font-weight: 20;
 }
 
 .pendidikan {
-    text-align: center;
+    /* text-align: center; */
     font-size: 20px;
+    margin: 100px 500px;
+
 }
 
 .border {
     text-align: center;
+    margin: 100px 500px;
 }
 
 .raden {
     font-size: 30px;
     font-weight: 30;
+    color: white;
 }
 
+.kenal {
+    color: white;
+}
 :root {
     --warnabiruh: blue;
     --warnaputih: white;
@@ -74,19 +78,26 @@ body {
 }
 
 .kotak-1 {
-    width: 500px;
+    /* height: 90vh; */
+    border: 4px solid black;
+    margin: 100px 400px;
+    background-color: coral;
+    /* width: 500px;
     height: 100px;
-    margin: 400px;
     text-align: center;
-    border: 4px solid blue;
-    background-color: var(--warnabiru);
+    background-color: var(--warnabiru); */
 }
 
 .kotak-2 {
-    width: 500px;
-    height: 300px;
-    margin: 400px;
-    text-align: center;
-    border: 4px solid blue;
+    /* width: 500px;
+    height: 300px; */
+    margin: 200px;
+    /* text-align: center; */
+    border: 4px solid coral;
     background-color: var(--warnabiru);
+}
+
+.headerbaris {
+    background-color: coral;
+    font-weight: 100px;
 }
